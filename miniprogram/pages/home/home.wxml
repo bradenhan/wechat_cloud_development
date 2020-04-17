@@ -1,0 +1,6 @@
+<!--miniprogram/pages/home/home.wxml-->
+<view class="page-container">
+	<view class="index-link">
+		<navigator url="../picture/imgshow" class="item-link">让小程序显示图片</navigator>
+	</view>
+</view>

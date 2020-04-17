@@ -1,0 +1,9 @@
+/* miniprogram/pages/home/home.wxss */
+.page-container .item-link{
+  display: block;
+  margin: 20rpx 40rpx 0;
+  padding: 20rpx;
+  background: #1772cb;
+  color: #fff;
+  text-align: center;
+}

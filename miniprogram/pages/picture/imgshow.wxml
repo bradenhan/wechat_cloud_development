@@ -1,0 +1,18 @@
+<!--miniprogram/pages/picture/imgshow.wxml-->
+<view class="page-container">
+	<view id="imgsection">
+		<view class="title">小程序显示图片</view>
+		<view class="imglist">
+			<image class="imgicon" src="../../images/code-cloud-callback-config.png"></image>
+		</view>
+	</view>
+
+  	<view id="imgsection">
+		<view class="title">小程序显示图片</view>
+		<view class="imglist">
+			<image class="imgicon" src="https://picture-1301411873.cos.ap-beijing.myqcloud.com/71a2b018bc92b2d19b3887165d427edd.png"></image>
+		</view>
+	</view>
+
+  
+</view>
