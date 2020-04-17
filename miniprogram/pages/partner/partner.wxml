@@ -1,2 +1,9 @@
 <!--miniprogram/pages/partner/partner.wxml-->
-<text>miniprogram/pages/partner/partner.wxml</text>
+<view class="page-container">
+	<view class="filter-display">
+		<text class="shake" hover-class="animated">shake</text>
+		<view hover-class="zoomOut animated">
+			<image mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+		</view>
+	</view>
+</view>

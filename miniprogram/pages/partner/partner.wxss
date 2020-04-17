@@ -1,1 +1,9 @@
 /* miniprogram/pages/partner/partner.wxss */
+image {
+  display: block;
+}
+
+.animted-hover {
+  transform: scale(0.5);
+}
+ 

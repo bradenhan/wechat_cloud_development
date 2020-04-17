@@ -41,13 +41,13 @@
         "pagePath": "pages/list/list",
         "iconPath": "images/icon-tab_list.png",
         "selectedIconPath": "images/icon-tab_list-active.png",
-        "text": "活动"
+        "text": "CSS 滤镜"
       },
       {
         "pagePath": "pages/partner/partner",
         "iconPath": "images/icon-tab_partner.png",
         "selectedIconPath": "images/icon-tab_partner-active.png",
-        "text": "伙伴"
+        "text": "animation 动画"
       },
       {
         "pagePath": "pages/more/more",
