@@ -1,2 +1,30 @@
 <!--miniprogram/pages/list/list.wxml-->
-<text>miniprogram/pages/list/list.wxml</text>
+<view class="page-container">
+	<view class="weui-article">
+		<view class="filter-display">
+			<view class="weui-article__h3">blur高斯模糊</view>
+			<image class="blur" mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+			<view class="weui-article__h3">grayscale图片变灰</view>
+			<image class="grayscale" mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+			<view class="weui-article__h3">opacity图片透明</view>
+			<image class="opacity" mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+			<view class="weui-article__h3">多个滤镜叠加，注意css的写法即可</view>
+			<image class="multiple" mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+		</view>
+
+		<view class="filter-display">
+			<text class="weui-article__h3">将鼠标悬停（模拟器）或手指（手机微信）按住或放开图片查看效果</text>
+			<view class="grayscale" hover-class="grayscale-hover">
+				<image mode="widthFix" src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/weapp.jpg"></image>
+			</view>
+		</view>
+
+		<view class="weui-article__h3">高斯模糊的背景</view>
+		<view class="userinfo-display">
+			<view class="blur-bg"></view>
+			<view class="user-img">
+				<image src="https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/luffy.jpg"></image>
+			</view>
+		</view>
+	</view>
+</view>
