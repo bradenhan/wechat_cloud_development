@@ -1,5 +1,9 @@
 <!--miniprogram/pages/list/list.wxml-->
+<import src="/pages/common/head.wxml" />
 <view class="page-container">
+
+	<template is="head" data='{{...pageHeader}}' />
+
 	<view class="weui-article">
 		<view class="filter-display">
 			<view class="weui-article__h3">blur高斯模糊</view>

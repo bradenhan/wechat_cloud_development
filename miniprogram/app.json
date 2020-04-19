@@ -24,7 +24,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#1772cb",
     "navigationBarTitleText": "云开发技术训练营",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#7A7E83",

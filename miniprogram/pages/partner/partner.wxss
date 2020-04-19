@@ -1,4 +1,12 @@
 /* miniprogram/pages/partner/partner.wxss */
+.home-top {
+  margin: 0 0 40rpx;
+}
+
+.filter-display {
+  margin: 20rpx 20rpx;
+}
+
 image {
   display: block;
 }
@@ -6,4 +14,35 @@ image {
 .animted-hover {
   transform: scale(0.5);
 }
- 
+
+.event-item {
+  height: 100rpx;
+  overflow: hidden;
+  margin: 20rpx 20rpx;
+}
+
+.movie-list .movie-item {
+  display: flex;
+  padding: 20rpx 20rpx;
+}
+
+.movie-list .movie-item image {
+  margin: 10rpx 20rpx 0 0;
+}
+
+.movie-list .movie-item view {
+  margin: 10rpx 0 0;
+  font-size: 28rpx;
+}
+
+.movie-list .movie-summary {
+  flex: 1;
+}
+
+.movie-list .movie-summary view:nth-of-type(1) {
+  margin: 0;
+}
+
+.weui-grid {
+  width: 25%;
+}

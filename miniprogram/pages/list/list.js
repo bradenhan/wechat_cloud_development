@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    pageHeader: {
+      title: "CSS 滤镜",
+      desc: "CSS 滤镜",
+    }
   },
 
   /**
